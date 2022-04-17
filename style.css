@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -6,8 +7,8 @@
 }
 
 .padre {
-    display: flex;
-    flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 div {
@@ -60,7 +61,7 @@ h1 {
   color: rgb(241, 237, 16);
   background-color: rgba(85, 86, 87, 0.455);
   padding: 10px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .titulo {
@@ -76,31 +77,24 @@ h1 {
   font-size: 10px;
 }
 
-.tokyoRevengers p {
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(247, 247, 247);
-    background-color: rgba(39, 41, 41, 0.745);
-}
 
 .tokyoRevengers {
-    display: flex;
-    flex-flow: row wrap;
-    background: black;
+  display: flex;
+  flex-flow: row wrap;
+  background: black;
 }
 
 .trailer {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.837);
-    padding-bottom: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.837);
+  padding-bottom: 2rem;
 }
 
 .trailer p {
   font-size: 40px;
-  color:rgba(255, 255, 255, 0.993);
+  color: rgba(255, 255, 255, 0.993);
   background: rgba(33, 33, 31, 0.468);
 }
 
@@ -109,4 +103,50 @@ h1 {
   width: auto;
 }
 
+.nombre {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 37px;
+  font-weight: bold;
+  color:rgb(255, 3, 3);
+  background: yellow;
+}
 
+.tokyoRevengers__personajes {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+.personajes {
+  display: inline;
+  max-width: 50%;
+  padding: 5px;
+  background: initial;
+  background-color: rgba(94, 93, 91, 0.35);
+}
+
+.Descripcion {
+  font-size: 20px;
+  background-color: yellow;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(154, 7, 203);
+}
+
+.footer {
+  background-color: yellow;
+  align-items: center;
+}
+
+.footer a {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: blueviolet;
+  font-size: 20px;
+}
