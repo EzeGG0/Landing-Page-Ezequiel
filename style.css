@@ -1,1 +1,55 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+div {
+    display: block;
+}
+
+.header {
+    background-image: url(/img/Tokyo-Revengers-Wallpapers121600x1200.webp);
+    display: flex;
+    flex-flow: column nowrap;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: initial; 
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+    height: 75px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(196, 210, 37);
+    font-size: 18px;
+}
+
+.navBar {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navBar__opcion {
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.logo {
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.sinopsis {
+    height: 600px;
+}
