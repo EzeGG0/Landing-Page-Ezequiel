@@ -36,7 +36,7 @@ div {
 
 a {
   text-decoration: none;
-  color: rgb(196, 210, 37);
+  color: rgb(31, 2, 247);
   font-size: 18px;
 }
 
@@ -112,25 +112,31 @@ h1 {
   font-size: 37px;
   font-weight: bold;
   color:rgb(255, 3, 3);
-  background: yellow;
+  background: rgb(8, 15, 202);
 }
 
 .tokyoRevengers__personajes {
   display: flex;
   flex-flow: row wrap;
+  padding: 10px;
 
 }
 .personajes {
-  display: inline;
-  max-width: 50%;
-  padding: 5px;
+  display: block;
+  max-width: 48%;
+  margin-right: 0;
   background: initial;
-  background-color: rgba(94, 93, 91, 0.35);
+  background-color: rgb(8, 21, 117);
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 3px;
 }
 
 .Descripcion {
   font-size: 20px;
-  background-color: yellow;
+  background-color: rgb(16, 235, 255);
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   color: rgb(154, 7, 203);
