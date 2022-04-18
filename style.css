@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -36,7 +36,7 @@ div {
 
 a {
   text-decoration: none;
-  color: rgb(31, 2, 247);
+  color: rgb(98, 22, 160);
   font-size: 18px;
 }
 
@@ -79,7 +79,6 @@ h1 {
   font-size: 10px;
 }
 
-
 .tokyoRevengers {
   display: flex;
   flex-flow: row wrap;
@@ -111,7 +110,7 @@ h1 {
   text-align: center;
   font-size: 37px;
   font-weight: bold;
-  color:rgb(255, 3, 3);
+  color: rgb(255, 3, 3);
   background: rgb(8, 15, 202);
 }
 
@@ -119,7 +118,6 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   padding: 10px;
-
 }
 .personajes {
   display: block;
@@ -138,7 +136,7 @@ h1 {
   font-size: 20px;
   background-color: rgb(16, 235, 255);
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: rgb(154, 7, 203);
 }
 
