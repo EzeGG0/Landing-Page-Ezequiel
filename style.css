@@ -159,11 +159,39 @@ button {
   color: rgb(255, 255, 255);
 }
 
-.footer {
-  background-color: rgb(0, 0, 0);
-  align-items: center;
+li {
+  list-style: none;
 }
 
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  align-content: center;
+  color: white;
+  max-width: 100vw;
+}
+
+.contacto h2 {
+  margin-left: 0.9rem;
+  padding-bottom: 0.4rem;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+}
+
+.contacto i {
+  font-size: 0.8rem;
+  margin-right: 0.2rem;
+}
+.contacto span {
+  font-size: 1.2rem;
+  font-family: "kanit", sans-serif;
+  padding-top: 1.2rem;
+}
+.footer {
+  border-top: 0.3rem solid rgb(92, 96, 96);
+}
 .footer a {
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -171,11 +199,21 @@ button {
   font-weight: bold;
 }
 
-.footer a:hover {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
+.redesSociales p {
+  margin-top: 0.4rem;
+  font-family: "Kanit", sans-serif;
 }
-
+.redesSociales .instagram {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 0.9rem;
+  font-size: 2rem;
+}
+.redesSociales .twitter {
+  margin-top: 0.5rem;
+  margin-left: 1.9rem;
+  font-size: 2rem;
+}
 @media (max-width: 600px) {
   .tokyoRevengers {
     flex-flow: column;
@@ -248,4 +286,5 @@ button {
   box-shadow: 0px 0px 23px 7px rgba(255, 252, 252, 0.6);
   -webkit-box-shadow: 0px 0px 23px 7px rgba(255, 252, 252, 0.6);
   -moz-box-shadow: 0px 0px 23px 7px rgba(255, 252, 252, 0.6);
+  transition: all 0.5s ease;
 }
